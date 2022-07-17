@@ -1,0 +1,63 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "user": [
+    {
+      "email": "bvinhshikeru28@gmail.com",
+      "password": "Vinhmyvm1@",
+      "repeatPassword": "Vinhmyvm1@",
+      "Rememberme": true,
+      "id": 1
+    },
+    {
+      "email": "bvinhshikeru282@gmail.combv",
+      "password": "Vinhmyvm1@",
+      "repeatPassword": "Vinhmyvm1@",
+      "Rememberme": true,
+      "id": 2
+    },
+    {
+      "email": "bvinhshikeru3@gmail.com",
+      "password": "Vinhmyvm1@3",
+      "repeatPassword": "Vinhmyvm1@3",
+      "Rememberme": false,
+      "id": 3
+    },
+    {
+      "email": "bvinhshikeru9@gmail.com",
+      "password": "Vinhmyvm1@",
+      "repeatPassword": "Vinhmyvm1@",
+      "Rememberme": true,
+      "id": 4
+    },
+    {
+      "email": "bvinhshikeru123@gmail.com",
+      "password": "Vinhmyvm1@32",
+      "repeatPassword": "Vinhmyvm1@32",
+      "Rememberme": true,
+      "id": 5
+    },
+    {
+      "email": "bvinhshikeru143@gmail.com",
+      "password": "Vinhmyvm1@",
+      "repeatPassword": "Vinhmyvm1@",
+      "Rememberme": true,
+      "id": 6
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

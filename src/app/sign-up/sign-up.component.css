@@ -1,0 +1,170 @@
+.main {
+    position: fixed;
+    background: url("../../assets/mountains.png");
+    background-size: 100% 100%;
+    min-height: 100vh;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.main::before{ 
+    background: rgba(0, 0, 0, 0.5); 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.form {
+    z-index: 1;
+    width: 450px;
+    min-height: 100px;
+    padding: 32px 24px;
+    text-align: left;
+    background: #fff; 
+    border-radius: 2px;
+    margin-top: 70px;
+    align-self:center;
+    box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+}
+
+.form .heading {
+    font-size: 2rem;
+    color: #000000;
+    font-weight: 500;
+}
+
+.form .desc {
+    text-align: left;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    line-height: 2.4rem;
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+.form-group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 16px;
+}
+
+.form-label {
+    text-align: left;
+}
+
+.form-label {
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 8px;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+}
+.form-check{
+    margin-top: 16px;
+}
+
+.form-check-label {
+    font-weight: 500;
+    margin: auto;
+    color:#000;
+    margin-top: 2px;
+    padding-left: 8px;
+    padding-bottom: 6px;
+    line-height: 1.8rem;
+    font-size: 1.5rem;
+}
+
+.form-check-input {
+    width: 15px;
+    height: 15px;
+}
+
+.form-control {
+    border: 1px solid #000;
+    height: 40px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    outline: none;
+    box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+    width: 92%;
+}
+
+.form-control:hover {
+    border-color: #f33a58;
+}
+
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+}
+
+.form-group.invalid .form-message {
+    color: #f33a58;
+}
+
+.button {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.form-submit,
+.form-resert {
+    outline: none;
+    font-weight: 600;
+    height: 40px;
+    width: 200px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-resert {
+    background-color: #f3441d;
+}
+
+.form-resert:hover {
+    background-color: #f3441d;
+}
+
+.form-submit {
+    background-color: #1ee951;
+}
+
+.form-submit:hover {
+    background-color: #1ee951;
+}
+
+.spacer {
+    margin-top: 10px;
+}
+
+.text-danger {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+}
+.eyeicon{
+    position: absolute;
+    right: 5px;
+    top: 45px;
+    color: #000;
+    cursor: pointer;
+    z-index: 2;
+}
+i{
+    width: 100%;
+}
